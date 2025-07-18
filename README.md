@@ -15,7 +15,6 @@ Supports color output, tree/flat/summary views, output in text, CSV, JSON, or HT
 ```bash
 python3 list_ansible_module_usages.py <file_or_directory> [--view tree|flat|summary] [--output text|json|csv|html]
 
-## Examples
-```bash
+# some examples
 python3 list_ansible_module_usages.py . --output html > report.html
 python3 list_ansible_module_usages.py myplaybook.yml --view summary
